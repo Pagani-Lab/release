@@ -1,0 +1,12 @@
+> #### Are Insula Seed-Based-Analysis ASD>TD genes enriched for genes that are ASD DE co-expressed and are either TSC2 or mTOR interactors?
+> 
+> res_pos = genelistOverlap(postimg_fdr05, asd_de_mods_AND_tscORmtor500, ns_gex_background)
+[1] "OR = 1.177163, p = 0.523658"
+
+> 
+> res_neg = genelistOverlap(negtimg_fdr05, asd_de_mods_AND_tscORmtor500, ns_gex_background)
+[1] "OR = 0.883234, p = 0.839473"
+
+> res_posORneg = genelistOverlap(posORnegtimg_fdr05, asd_de_mods_AND_tscORmtor500, ns_gex_background)
+[1] "OR = 1.194363, p = 0.765393"
+
